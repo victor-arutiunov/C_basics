@@ -8,7 +8,7 @@ int main(void) {
 
     piece_length = plank_length/piece_count;
 
-    printf("A plank length %f could be divided into %f parts %f each",
+    printf("A plank length %.2f could be divided into %.2f parts %.2f each",
            plank_length,
            piece_count,
            piece_length);
