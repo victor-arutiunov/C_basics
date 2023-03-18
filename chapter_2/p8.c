@@ -1,10 +1,11 @@
 // Program 2.8 Limits
 #include <stdio.h>
 #include <limits.h>
+#include <float.h>
 
 int main(void) {
-    long long int x = LLONG_MAX;
-    printf("The max value is %ulld\n", x);
+    printf("The max value is %llu\n", ULLONG_MAX);
+    printf("The max value is %f\n", FLT_MAX);
 
     return 0;
 }
